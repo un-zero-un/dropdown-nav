@@ -1,6 +1,6 @@
 {
     "name": "@un-zero-un/dropdown-nav",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A simple dropdown navigation for good ol' server side websites",
     "main": "lib/index.js",
     "author": "Yohan Giarelli <yohan@un-zero-un.fr>",
