@@ -28,10 +28,13 @@ export default class Dropdown {
 
         link.classList.add(this._config.get('activeLinkClassPrefix') + this._config.get('activeLinkClass'));
         panel.classList.add(this._config.get('openPanelClassPrefix') + this._config.get('openPanelClass'));
+        this._rootElement.classList.add(this._config.get('rootClassPrefix') + this._config.get('rootClass'));
     }
+
     close(link, panel) {
         link.classList.remove(this._config.get('activeLinkClassPrefix') + this._config.get('activeLinkClass'));
         panel.classList.remove(this._config.get('openPanelClassPrefix') + this._config.get('openPanelClass'));
+        this._rootElement.classList.remove(this._config.get('rootClassPrefix') + this._config.get('rootClass'));
     }
 
     onLinkClick(link, event) {

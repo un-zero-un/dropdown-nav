@@ -4,6 +4,8 @@ export default class Config {
         activeLinkClass: '--active',
         openPanelClassPrefix: 'Nav',
         openPanelClass: '--open',
+        rootClassPrefix: 'Dropdown',
+        rootClass: '--open',
         findPanel: link => document.querySelector('[data-dropdown-panel="' + link.dataset.dropdownLink + '"]'),
     };
 
